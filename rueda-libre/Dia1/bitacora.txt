@@ -1,4 +1,4 @@
-url: http://127.0.0.1:3000/index.html
+﻿url: http://127.0.0.1:3000/index.html
 protocolo: http
 host: 127.0.0.1:3000
 puerto: 3000
@@ -6,12 +6,16 @@ ruta: /index.html
 metodo de peticion: GET
 codigo de estado: 200 OK
 
+
 Al buscar promociones/html
 File not found
+
 
 The file "/home/cohorte8/JuanZapata/rueda-libre/index.html/promociones. html" cannot be found. It may have been moved, edited, or deleted.
  
 - Esto pasa porque se intenta buscar una ruta que aun no esta creada en el proyecto por lo cual el sistema rechaza la peticion y suelta el error 
+
+
 
 
 Roles en rueda-libre
@@ -21,3 +25,43 @@ Ejemplo: Un catalogo con las biclicetas, ejemplo bicileta de montaña, esta seri
 Ejemplo: Cambiar el fono, el tipo de letra, el tamaño etc.
 - JavaScript: con JavaScript se haran todas las interacciones
 Ejemplo: Crear un boton que sea agregar carrito, algun filtro para buscar bicis por su cuenta
+
+
+Tabla de rutas
+
+
+Archivo origen
+	destino
+	ruta
+	index.html
+	tarifas
+	/pages/tarifas.html
+
+
+	index.html
+	reservas
+	/pages/reservas.html
+
+
+	index.html
+	google maps
+	https://www.google.com/maps
+
+
+	index.html
+	correo electroniuco
+	mailto:correo.hola@ruedalibre.example
+
+
+	tarifas.html
+	index
+	../index.html
+	tarifas.html
+	reservas
+	reservas.html
+	reservas.html
+	inicio
+	../index.html
+	reservas.html 
+	tarifas
+	tarifas.html
