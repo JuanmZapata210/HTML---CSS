@@ -65,37 +65,3 @@ Archivo origen
 	reservas.html 
 	tarifas
 	tarifas.html
-
-Esquema de region Index.html
-Encabezado (header): imagen de portada, el h1, bienvenida
-	(nav): enlaces a tarifas y reservas
-Contenido principal (main)
-	Sección: ¿Quiénes somos? 
-	Sección: Nuestros servicios 
-		Artículo: Tipo de bicicleta 
-		Artículo: Alquiler por horas 
-		Artículo: Alquiler por día completo 
-		Artículo: Tour guiado 
-		Artículo: Rutas 
-	Sección: ¿Cómo alquilar? 
-	Sección: Beneficios de alquilar con nosotros 
-Contenido complementario (aside): enlaces de interés 
-Pie de página (footer): nombre del negocio, correo de contacto y año 
-
-Esquema de region tarifas.html
-Encabezado (header): h1, imagen, frase introductoria
-	(nav): enlaces a inicio y reservas
-Contenido principal (main)
-	Sección: Tarifas de alquiler (con su tabla)
-	Sección: Tarifa recorridos guiados (con su tabla y enlace para reservar)
-	Sección: Información adicional
-		Contenido complementario (aside): Recuerda llevar
-Pie de página (footer): nombre del negocio, correo de contacto, año y enlace para volver al inicio.
-
-Esquema de region reservas.html
-Encabezado (header): h1
-	(nav): enlaces a inicio y tarifas
-Contenido principal (main)
-	Sección: Correo de contacto
-	Contenido complementario (aside): Horario de atención
-Pie de página (footer): nombre del negocio, correo de contacto y año
