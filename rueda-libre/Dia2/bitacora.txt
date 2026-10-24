@@ -107,3 +107,16 @@ Segunda parte:
 - Se uso el type:Radio para seleccionar el plan que el usuario queria porque asi se aseguraba que solo se eligira una opcion.
 - Se uso un select para la seleccion del tipo de bicicleta y para seleccionar el recorrido guiado porque son listas cortas de opciones fijas. El select ocupa poco espacio, obliga a escoger un valor válido y evita los errores que a veces se tienen en escritura.
 - Se uso type="text" con inputmode="numeric" para el numero de documento porque type="number" muestra flechas de subir y bajar, y puede borrar los ceros iniciales.
+
+Tercera parte
+Verificacion 
+- nombre: ja - Suelta error debe contener mas de 3 letras
+- documento: 101 - suelta error debe tener entre 6 y 10 numeros
+- documento: 10101010101101 - suelta error debe tener entre 6 y 10 numeros
+- correo electroniuco: jaja@gmail - suelta error debe tener el .com
+- fecha alquiler: solo acepta del 1 de noviembre a el 31 de diciembre
+- cantidad de bicicletas: solo se deja poner entre 1 y 6 
+- celular: 219456876 - suelta error debe empezar por 3
+- celular: 319876 - Suelta erro debe contener 10 numeros
+- comentarios: solo acepta 300 caracteres
+- Acepto politicas de privacidad: si no esta marcado no se manda el formulario
