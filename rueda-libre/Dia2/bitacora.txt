@@ -66,6 +66,8 @@ Archivo origen
 	tarifas
 	tarifas.html
 
+Reto dia 2
+
 Esquema de region Index.html
 Encabezado (header): imagen de portada, el h1, bienvenida
 	(nav): enlaces a tarifas y reservas
@@ -99,3 +101,9 @@ Contenido principal (main)
 	Sección: Correo de contacto
 	Contenido complementario (aside): Horario de atención
 Pie de página (footer): nombre del negocio, correo de contacto y año
+
+
+Segunda parte:
+- Se uso el type:Radio para seleccionar el plan que el usuario queria porque asi se aseguraba que solo se eligira una opcion.
+- Se uso un select para la seleccion del tipo de bicicleta y para seleccionar el recorrido guiado porque son listas cortas de opciones fijas. El select ocupa poco espacio, obliga a escoger un valor válido y evita los errores que a veces se tienen en escritura.
+- Se uso type="text" con inputmode="numeric" para el numero de documento porque type="number" muestra flechas de subir y bajar, y puede borrar los ceros iniciales.
