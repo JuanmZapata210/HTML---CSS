@@ -20,3 +20,38 @@ a {
     color: var(--verde);
     text-decoration: underline;
 }
+#menu a:hover {
+    color: var(--crema);
+    background-color: var(--verde);
+    text-decoration: underline;
+}
+#menu a:focus {
+    color: var(--crema);
+    background-color: var(--azul);
+    outline: 3px solid var(--azul);
+    outline-offset: 2px;
+}
+.activo { color: var(--verde); font-weight: 700; }
+.boton-accion {
+    display: inline-block;
+    padding: var(--espacio-1) var(--espacio-3);
+    background-color: var(--verde);
+    color: var(--crema);
+    text-decoration: none;
+}
+
+.boton-accion:hover {
+    background-color: var(--azul);
+}
+
+.boton-accion:focus {
+    background-color: var(--azul);
+    outline: 3px solid var(--azul);
+    outline-offset: 3px;
+}
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 3px solid var(--azul);
+    outline-offset: 2px;
+}
