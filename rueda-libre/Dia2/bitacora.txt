@@ -120,3 +120,24 @@ Verificacion
 - celular: 319876 - Suelta erro debe contener 10 numeros
 - comentarios: solo acepta 300 caracteres
 - Acepto politicas de privacidad: si no esta marcado no se manda el formulario
+
+Cuarta parte
+Hallzagos 
+- Las tres paginas estaban en <html lang="en"> quiere decir en ingles, deben estar en es, en español.
+- Tenia varios alt muy pobres y sin describir si la imagen es solo decorativa.
+- Cambie <a href="/pages/reservas.html">Aqui puedes reservar</a> mas especificamente cambie aqui puedes reservar porque sin contexto no se entiende y le puse reservar bicicleta.
+- Cambie la descripcion del enlace del correo electronico porque no se entendia a donde iba, la cambie por escribenos a nuestro correo electronico.
+- Correcion en un h2 que pasaba de una a h4 sin usar el h3.
+
+
+Contraste de colores
+-Blanco sobre Verde Ruta: 5.31:1 - Apta para texto normal
+-Blanco sobre Naranja Pedal: 2.22:1 - No apta
+-Azul Noche sobre Naranja Pedal: 7.20:1	- Apta para texto normal.
+-Azul Noche sobre Crema: 14.83:1 - Apta para texto normal
+-Gris Asfalto sobre Crema: 5.57:1 - Apta para texto normal
+-Verde Ruta sobre Crema:	4.93:1 - Apta para texto normal
+-Naranja Pedal sobre Crema: 2.06:1 -	No apta
+-Blanco sobre Azul Noche: 15.97:1 - Apta para texto normal
+
+Ninguna quedo en texto grande que seria entre 3 y 4.5

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -25,25 +25,24 @@
                     <legend>Tus datos</legend>
                     <p>
                         <label for="nombre">Nombre completo:</label>
-                        <input type="text" id="nombre" name="nombre" autocomplete="name" required minlength="3"
-                            required>
+                        <input type="text" id="nombre" name="nombre" autocomplete="name" required minlength="3">
                     </p>
                     <p>
                         <label for="documento">Numero de documento</label>
                         <input type="text" id="documento" name="documento" inputmode="numeric" required
-                            pattern="[0-9]{6,10}" title="Solo numeros entre 6 y 10 digitos" required>
+                            pattern="[0-9]{6,10}" title="Solo numeros entre 6 y 10 digitos" >
 
                     </p>
 
                     <p>
                         <label for="correo">Correo electronico</label>
                         <input type="email" id="correo" name="correo" autocomplete="email" required pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
-                        title="Escribe un correo valido. Ejemplo: nombre@correo.com" required>
+                        title="Escribe un correo valido. Ejemplo: nombre@correo.com">
                     </p>
 
                     <p>
                         <label for="celular">Celular</label>
-                        <input type="tel" id="celular" name="celular" autocomplete="tel" required pattern="3[0-9]{9}" title="Debe empezar por 3 y contener 10 numeros" required>
+                        <input type="tel" id="celular" name="celular" autocomplete="tel" required pattern="3[0-9]{9}" title="Debe empezar por 3 y contener 10 numeros">
                     </p>
 
                 </fieldset>
@@ -53,7 +52,7 @@
 
                     <p>
                         <label for="fecha">Fecha del alquiler</label>
-                        <input type="date" id="fecha" name="fecha" required min="2026-11-01" max="2026-12-31" required>
+                        <input type="date" id="fecha" name="fecha" required min="2026-11-01" max="2026-12-31">
                     </p>
 
                     <p>
@@ -84,7 +83,7 @@
 
                     <p>
                         <label for="cantidad">Cantidad de bicicletas</label>
-                        <input type="number" id="cantidad" name="cantidad" value="cant" required min="1" max="6" required>
+                        <input type="number" id="cantidad" name="cantidad" value="1" min="1" max="6">
                     </p>
 
                     <p>
@@ -131,7 +130,7 @@
     <footer>
         <h3>Rueda Libre</h3>
         <h4>Correo de contacto</h4>
-        <a href="mailto:correo.hola@ruedalibre.example">Correo electronico</a>
+        <a href="mailto:correo.hola@ruedalibre.example">Escribenos a nuestro correo electronico</a>
         <p><strong>2026</strong></p>
     </footer>
 
