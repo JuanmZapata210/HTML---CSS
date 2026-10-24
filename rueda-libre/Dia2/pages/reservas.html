@@ -25,21 +25,25 @@
                     <legend>Tus datos</legend>
                     <p>
                         <label for="nombre">Nombre completo:</label>
-                        <input type="text" id="nombre" name="nombre" autocomplete="name" required>
+                        <input type="text" id="nombre" name="nombre" autocomplete="name" required minlength="3"
+                            required>
                     </p>
                     <p>
                         <label for="documento">Numero de documento</label>
-                        <input type="text" id="documento" name="documento" inputmode="numeric" required>
+                        <input type="text" id="documento" name="documento" inputmode="numeric" required
+                            pattern="[0-9]{6,10}" title="Solo numeros entre 6 y 10 digitos" required>
+
                     </p>
 
                     <p>
                         <label for="correo">Correo electronico</label>
-                        <input type="email" id="correo" name="correo" autocomplete="email" required>
+                        <input type="email" id="correo" name="correo" autocomplete="email" required pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+                        title="Escribe un correo valido. Ejemplo: nombre@correo.com" required>
                     </p>
 
                     <p>
                         <label for="celular">Celular</label>
-                        <input type="tel" id="celular" name="celular" autocomplete="tel" required>
+                        <input type="tel" id="celular" name="celular" autocomplete="tel" required pattern="3[0-9]{9}" title="Debe empezar por 3 y contener 10 numeros" required>
                     </p>
 
                 </fieldset>
@@ -49,7 +53,7 @@
 
                     <p>
                         <label for="fecha">Fecha del alquiler</label>
-                        <input type="date" id="fecha" name="fecha" required>
+                        <input type="date" id="fecha" name="fecha" required min="2026-11-01" max="2026-12-31" required>
                     </p>
 
                     <p>
@@ -80,7 +84,7 @@
 
                     <p>
                         <label for="cantidad">Cantidad de bicicletas</label>
-                        <input type="number" id="cantidad" name="cantidad" min="1" value="1" required>
+                        <input type="number" id="cantidad" name="cantidad" value="cant" required min="1" max="6" required>
                     </p>
 
                     <p>
@@ -99,7 +103,7 @@
 
                     <p>
                         <label for="comentarios">Comentarios</label><br>
-                        <textarea id="comentarios" name="comentarios" rows="4" cols="40"></textarea>
+                        <textarea id="comentarios" name="comentarios" rows="4" cols="40" maxlength="300"></textarea>
                     </p>
 
                     <p>
