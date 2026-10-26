@@ -1,43 +1,115 @@
 :root {
-
     --verde: #1E7A4F;
     --naranja: #F39A2B;
     --azul: #14213D;
     --crema: #FAF6EF;
     --gris: #5B6470;
+    --blanco: #FFFFFF;
+
     --fuente-titulos: "Montserrat", Arial, sans-serif;
     --fuente-texto: "Open Sans", Arial, sans-serif;
+
 }
 body {
+    margin: 0;
     font-family: var(--fuente-texto);
     color: var(--azul);
     background-color: var(--crema);
 }
-h1, h2, h3, h4 {
+
+h2,
+h3,
+h4 {
     font-family: var(--fuente-titulos);
 }
+
 a {
     color: var(--verde);
     text-decoration: underline;
 }
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 3px solid var(--azul);
+    outline-offset: 2px;
+}
+header,
+footer {
+    padding: 1rem max(2.5rem, calc((96% - 50rem) / 2 + 2.5rem));
+    background: linear-gradient(135deg, var(--azul), #1F3A6B);
+}
+
+header {
+    border-bottom: 4px solid var(--naranja);
+}
+header h1, img{
+    display: flex;
+    justify-content: space-between;
+    color: var(--crema);
+
+}
+
+header p {
+    color: var(--crema);
+}
+
+footer {
+    color: var(--blanco);
+    border-top: 4px solid var(--naranja);
+}
+
+footer a {
+    color: var(--crema);
+}
+
+main {
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 1.5rem 2.5rem;
+}
+
+#menu {
+    display: flex;
+    gap: 20px;
+    padding: 8px;
+    background-color: var(--crema);
+    border-radius: 5px;
+}
+
+#menu a {
+    color: var(--azul);
+}
+
 #menu a:hover {
     color: var(--crema);
-    background-color: var(--verde);
+    background-color: var(--naranja);
     text-decoration: underline;
 }
+
 #menu a:focus {
     color: var(--crema);
     background-color: var(--azul);
     outline: 3px solid var(--azul);
     outline-offset: 2px;
 }
-.activo { color: var(--verde); font-weight: 700; }
+
+#menu2 a {
+    color: var(--crema);
+}
+
+.activo {
+    color: var(--verde);
+    font-weight: 700;
+}
+
 .boton-accion {
     display: inline-block;
-    padding: var(--espacio-1) var(--espacio-3);
+    padding: 10px;
     background-color: var(--verde);
     color: var(--crema);
     text-decoration: none;
+    border-radius: 8px;
 }
 
 .boton-accion:hover {
@@ -49,9 +121,27 @@ a {
     outline: 3px solid var(--azul);
     outline-offset: 3px;
 }
-input:focus,
-select:focus,
-textarea:focus {
-    outline: 3px solid var(--azul);
-    outline-offset: 2px;
+
+.tarjeta {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 7px;
+    border: 1px solid var(--azul);
+    border-radius: 0.5rem;
+    margin-bottom: 10px;
+}
+
+.tarjeta img {
+    display: block;
+    width: 400px;
+    height: auto;
+    margin-bottom: var(--espacio-s);
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0 1.5rem;
 }
