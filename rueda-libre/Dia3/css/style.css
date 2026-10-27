@@ -10,6 +10,7 @@
     --fuente-texto: "Open Sans", Arial, sans-serif;
 
 }
+
 body {
     margin: 0;
     font-family: var(--fuente-texto);
@@ -34,29 +35,52 @@ textarea:focus {
     outline: 3px solid var(--azul);
     outline-offset: 2px;
 }
-header,
-footer {
-    padding: 1rem max(2.5rem, calc((96% - 50rem) / 2 + 2.5rem));
-    background: linear-gradient(135deg, var(--azul), #1F3A6B);
-}
-
-header {
-    border-bottom: 4px solid var(--naranja);
-}
-header h1, img{
-    display: flex;
-    justify-content: space-between;
-    color: var(--crema);
-
-}
-
-header p {
-    color: var(--crema);
-}
 
 footer {
     color: var(--blanco);
     border-top: 4px solid var(--naranja);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, var(--azul), #1F3A6B);
+    padding: 1rem 45rem;
+    gap: 1rem;
+}
+
+header {
+    display: flex;
+    padding: 1rem 13rem;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--azul), #1F3A6B);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    border-bottom: 4px solid var(--naranja);
+
+}
+header a:hover{
+    color: var(--crema);
+    background-color: var(--naranja);
+    text-decoration: underline;
+
+}
+
+
+
+header h1 {
+    color: var(--crema);
+
+}
+header h2{
+    color: var(--crema);
+}
+
+header p {
+    color: var(--crema);
 }
 
 footer a {
@@ -66,7 +90,7 @@ footer a {
 main {
     max-width: 50rem;
     margin: 0 auto;
-    padding: 1.5rem 2.5rem;
+    padding: 1.5rem ;
 }
 
 #menu {
@@ -139,9 +163,19 @@ main {
     margin-bottom: var(--espacio-s);
     border-radius: 5px;
 }
+.tarjeta:hover{
+    outline: 5px solid var(--blanco);
+
+
+}
 
 table {
     width: 100%;
     border-collapse: collapse;
     margin: 1rem 0 1.5rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
